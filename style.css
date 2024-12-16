@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(Home/bdwood2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  background-color: black;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+nav .menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-right: 100px;
+}
+nav .menu ul li {
+  margin: 30px;
+}
+nav .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav .menu ul li a:hover {
+  color: aquamarine;
+}
+nav .logo img {
+  width: 70px;
+  padding-top: 10px;
+}
+
+.atas {
+  background-color: black;
+  display: flex;
+  height: 500px;
+  padding-top: 40px;
+  padding-left: 200px;
+}
+.atas img {
+  width: 600px;
+  height: 300px;
+}
+.atas img:hover {
+  filter: grayscale(90%);
+}
+.atas .pembuka {
+  width: 700px;
+  height: 300px;
+  background-color: #333;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.atas .pembuka h1 {
+  margin-bottom: 20px;
+}
+.atas .pembuka p {
+  line-height: 1.8;
+}
+.atas .pembuka .tombol {
+  margin-top: 20px;
+}
+.atas .pembuka .tombol a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+.atas .pembuka .tombol a:hover {
+  color: aquamarine;
+}
+
+.dummy {
+  background-color: rgba(0, 0, 0, 0.678);
+  height: 300px;
+  padding: 50px;
+  color: white;
+}
+.dummy .teks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dummy .teks h1 {
+  margin-bottom: 30px;
+}
+.dummy .teks p {
+  text-align: center;
+  line-height: 1.8;
+}
+.dummy .card_c {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.dummy .card_c .card {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dummy .card_c .card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.dummy .card_c .card h3 {
+  width: 300px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.dummy .card_c .card p {
+  width: 300px;
+  text-align: center;
+}
+
+.bawah {
+  background-color: black;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bawah .cardbawah {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid white;
+  width: 100px;
+  height: 100px;
+}
+.bawah .cardbawah h1 {
+  color: aquamarine;
+  margin-bottom: 10px;
+}
+
+.bawah .cardbawah p {
+  width: 200px;  
+}
+/*# sourceMappingURL=style.css.map */

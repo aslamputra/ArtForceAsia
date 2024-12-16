@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  background-color: black;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+nav .menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-right: 100px;
+}
+nav .menu ul li {
+  margin: 30px;
+}
+nav .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav .menu ul li a:hover {
+  color: aquamarine;
+}
+nav .logo img {
+  width: 70px;
+  padding-top: 10px;
+}
+
+.atas {
+  background-image: url(Portfolio/bg-p.jpg);
+  background-attachment: inherit;
+  background-size: cover;
+  display: flex;
+  height: 300px;
+  padding-top: 40px;
+  padding-left: 200px;
+}
+.atas .pembuka {
+  width: 450px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  display: flex;
+  top: 150px;
+  right: 450px;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.atas .pembuka h1 {
+  margin-bottom: 20px;
+  font-size: 60px;
+}
+
+.bawah {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bawah .cardbawahtext {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid black;
+}
+.bawah .cardbawahtext h1 {
+  margin-right: 40px;
+}
+.bawah .cardbawahimg {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+}
+.bawah .cardbawahimg img {
+  width: 100px;
+  border: 3px solid black;
+}/*# sourceMappingURL=stylep.css.map */

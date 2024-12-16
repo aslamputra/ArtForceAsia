@@ -1,0 +1,223 @@
+.gambar {
+  background-color: black;
+  -moz-column-count: 5;
+       column-count: 5;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  padding: 20px;
+}
+.gambar .gbr {
+  width: 230px;
+  margin-bottom: 10px;
+  display: block;
+}
+.gambar .gbr:hover {
+  filter: grayscale(100);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(logo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  background-color: black;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+nav .menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-right: 100px;
+}
+nav .menu ul li {
+  margin: 30px;
+}
+nav .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav .menu ul li a:hover {
+  color: aquamarine;
+}
+nav .logo img {
+  width: 70px;
+  padding-top: 10px;
+}
+
+.atas {
+  background-color: black;
+  display: flex;
+  height: 500px;
+  padding-top: 40px;
+  padding-left: 200px;
+}
+.atas img {
+  width: 600px;
+  height: 300px;
+}
+.atas img:hover {
+  filter: grayscale(90%);
+}
+.atas .pembuka {
+  width: 700px;
+  height: 300px;
+  background-color: #333;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.atas .pembuka h1 {
+  margin-bottom: 20px;
+}
+.atas .pembuka p {
+  line-height: 1.8;
+}
+.atas .pembuka .tombol {
+  margin-top: 20px;
+}
+.atas .pembuka .tombol a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+.atas .pembuka .tombol a:hover {
+  color: aquamarine;
+}
+
+
+.gallery {
+  background-color: black;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  display: flex;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  max-width: 800px;
+  width: 90%;
+  position: relative;
+}
+
+.popup-content img {
+  width: 50%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-right: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.popup-details {
+  flex: 1;
+}
+
+.popup-details h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.popup-details p {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.popup-content .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.2s ease;
+}
+
+.popup-content .close-btn:hover {
+  color: #333;
+}
+
+.popup-details .actions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.popup-details .actions a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.popup-details .actions .whatsapp {
+  background-color: #25D366;
+}
+
+.popup-details .actions .whatsapp:hover {
+  background-color: #1DA851;
+}
+
+.popup-details .actions .email {
+  background-color: #007BFF;
+}
+
+.popup-details .actions .email:hover {
+  background-color: #0056b3;
+}
+/*# sourceMappingURL=stylegallery.css.map */

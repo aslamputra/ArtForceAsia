@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  background-color: black;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+nav .menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-right: 100px;
+}
+nav .menu ul li {
+  margin: 30px;
+}
+nav .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav .menu ul li a:hover {
+  color: aquamarine;
+}
+nav .logo img {
+  width: 70px;
+  padding-top: 10px;
+}
+
+.about {
+  height: 300px;
+  padding: 50px;
+  color: white;
+  max-width: 900px; /* Lebar maksimum untuk konten */
+  margin: 0 auto;
+}
+.about .teks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about .teks h1 {
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.about .teks p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.gambarartforce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gambarartforce img {
+  width: 1250px;
+  height: 300px;
+  padding-bottom: 80px;
+}
+
+.visimisi {
+  display: flex;
+  background-color: black; /* Latar belakang putih */
+  color: #000; /* Teks hitam */
+}
+.visimisi .visi {
+  width: 2500px;
+  height: 200px;
+  padding: 50px;
+  color: black;
+  background-color: white;
+}
+.visimisi .visi h1 {
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.visimisi .visi p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.visimisi .misi {
+  height: 200px;
+  padding: 50px;
+  color: white;
+  background-color: #333;
+}
+.visimisi .misi h1 {
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.visimisi .misi p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.story {
+  color: white;
+  height: 200px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.story h1 {
+  padding-top: 100px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
+}
+.story p {
+  text-align: center;
+  line-height: 1.8;
+  max-width: 500px;
+}
+
+.client {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.client h1 {
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.card .card_5 {
+  width: 150px;
+  display: flex;
+}
+.card .card_5 img {
+  width: 100px;
+  margin-bottom: 100px;
+}/*# sourceMappingURL=stylea.css.map */
